@@ -51,7 +51,7 @@ Output: [5, 5, 5]
 
 ```
 
-**Example 3:**
+**Example 2:**
 
 ```Python
 Input: k = -1 n = 4
