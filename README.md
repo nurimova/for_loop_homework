@@ -1,217 +1,181 @@
-# Welcome
+
+# Xush kelibsiz
 # For LOOP
 
-Automated grading of homework assignments and tests
-- fork this repository
-- solve the task
-- commit with proper message
+Avtomatlashtirilgan uy vazifasi va testlarni baholash
+- Bu repozitoriyani tahrirlash
+- Vazifani yeching
+- To'g'ri xabar bilan commit qiling
 
-# Problems
+# Muammolar
 ## For01
 
-  Return numbers from zero to n in a list view.
+  Nolgacha bo'lgan raqamlarni ro'yxat shaklida qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
-Input: n = 5
-Output: [0, 1, 2, 3, 4]
-
+Kiritish: n = 5
+Chiqish: [0, 1, 2, 3, 4]
 ```
 
-**Constraints:**
+**Cheklovlar:**
 
   - 1 <= n <= 10^9
 
 ## For02
 
-  Return numbers from zero to n in a string view.
+  Nolgacha bo'lgan raqamlarni satr shaklida qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
-Input: n = 3
-Output: "0,1,2"
-
+Kiritish: n = 3
+Chiqish: "0,1,2"
 ```
 
-**Constraints:**
+**Cheklovlar:**
 
   - 1 <= n <= 10^9
 
 ## For03
 
-  Repeat the number k n times and return to the list view.
+  K sonini n marta takrorlang va ro'yxat shaklida qaytaring.
 
-**Example 1:**
-
-```Python
-Input: k = 5 n = 3
-Output: [5, 5, 5]
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: k = -1 n = 4
-Output: [-1, -1, -1, -1]
-
+Kiritish: k = 5 n = 3
+Chiqish: [5, 5, 5]
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kiritish: k = -1 n = 4
+Chiqish: [-1, -1, -1, -1]
+```
+
+**Cheklovlar:**
 
   - 1 <= n <= 10^9
   - -10^9 <= k <= 10^9
 
 ## For04
 
-  Return the numbers from A to B in the form of a list.
+  A dan B gacha bo'lgan raqamlarni ro'yxat shaklida qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
-Input: A = 2 B = 7
-Output: [2, 3, 4, 5, 6, 7]
-
+Kiritish: A = 2 B = 7
+Chiqish: [2, 3, 4, 5, 6, 7]
 ```
 
-**Constraints:**
+**Cheklovlar:**
 
   - -10^9 <= A <= 10^9
   - A <= B <= 10^9
 
 ## For05
 
-  Return the numbers from B to A in the form of a list.
+  B dan A gacha bo'lgan raqamlarni ro'yxat shaklida qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
-Input: A = 5 B = 9
-Output: [9, 8, 7, 6, 5]
-
+Kiritish: A = 5 B = 9
+Chiqish: [9, 8, 7, 6, 5]
 ```
 
-**Constraints:**
+**Cheklovlar:**
 
   - -10^9 <= A <= 10^9
   - A <= B <= 10^9
 
 ## For06
 
-  Return the sum of all integers from A to B.
+  A dan B gacha bo'lgan barcha sonlarning yig'indisini qaytaring.
 
-**Example 1:**
-
-```Python
-Input: A = 3 B = 6
-Output: 12
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: A = -6 B = 8
-Output: 7
-
+Kiritish: A = 3 B = 6
+Chiqish: 12
 ```
 
-**Constraints:**
-
-  - -10^9 <= A <= 10^9
-  - A <= B <= 10^9
-
-## For06
-
-  Return the sum of all integers from A to B.
-
-**Example 1:**
+**Misol 2:**
 
 ```Python
-Input: A = 3 B = 6
-Output: 12
-
+Kiritish: A = -6 B = 8
+Chiqish: 7
 ```
 
-**Example 2:**
-
-```Python
-Input: A = -6 B = 8
-Output: 7
-
-```
-
-**Constraints:**
+**Cheklovlar:**
 
   - -10^9 <= A <= 10^9
   - A <= B <= 10^9
 
 ## For07
 
-  Return the sum of odd numbers from zero to N.
+  N sonigacha bo'lgan toq sonlarning yig'indisini qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
-Input: N = 12
-Output: 36
-
+Kiritish: N = 12
+Chiqish: 36
 ```
 
-**Constraints:**
+**Cheklovlar:**
 
   - 0 <= N <= 10^9
 
 ## For08
 
-  The number N is given. Calculate the sum below: 1 + 1/2 + 1/3 + … + 1/N.
+  N soni berilgan. Quyidagi yig'indini hisoblang: 1 + 1/2 + 1/3 + … + 1/N.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
-Input: N = 4
-Output: 2.083333333333333
-
+Kiritish: N = 4
+Chiqish: 2.083333333333333
 ```
 
-**Constraints:**
+**Cheklovlar:**
 
   - 0 <= N <= 10^9
 
 ## For09
 
-  The price of a kilogram of sweets is given. Return the price of a dessert from one to ten kg in the form of a list.
+  Bir kilogramm shirinlikning narxi berilgan. Birdan o'nga qadar shirinlikning narxlarini ro'yxat shaklida qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
-Input: price = 2.25
-Output: [2.25, 4.5, 6.75, 9.0, 11.25, 13.5, 15.75, 18.0, 20.25, 22.5]
-
+Kiritish: narx = 2.25
+Chiqish: [2.25, 4.5, 6.75, 9.0, 11.25, 13.5, 15.75, 18.0, 20.25, 22.5]
 ```
 
-**Constraints:**
+**Cheklovlar:**
 
-  - 0 <= price <= 10^9
+  - 0 <= narx <= 10^9
 
 ## For10
 
-  The price of a kilogram of sweets is given. Return the price of a dessert from one to ten kg in the form of a list.
+  Bir kilogramm shirinlikning narxi berilgan. Birdan o'nga qadar shirinlikning narxlarini ro'yxat shaklida qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
-Input: list1 = ['rustam', 'diyor', 'alisher', 'bektosh']
-Output: ['Rustam', 'Diyor', 'Alisher', 'Bektosh']
-
+Kiritish: list1 = ['rustam', 'diyor', 'alisher', 'bektosh']
+Chiqish: ['Rustam', 'Diyor', 'Alisher', 'Bektosh']
 ```
 
-**Constraints:**
+**Cheklovlar:**
 
-  - 0 <= price <= 10^9
+  - 0 <= narx <= 10^9
 
-# Warning
-- don't copy other solutions or any solution
-- don't remove comments
+# Ogohlantirish
+- Boshqa yechimlarni yoki har qanday yechimni ko'chirmang
+- Izohlarni o'chirmang
