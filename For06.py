@@ -7,4 +7,5 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    return sum(range(A,B+1))
+print(main(3,7))
